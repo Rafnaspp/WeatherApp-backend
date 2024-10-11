@@ -4,7 +4,7 @@ import dotenv from 'dotenv'
 import cors from 'cors'
 const app = express()
 dotenv.config()
-import authRoute from  '../WeatherApp-backend/router/auth.js'
+import authRoute from  './router/auth.js'
 
 // const DB = process.env.DB
 
